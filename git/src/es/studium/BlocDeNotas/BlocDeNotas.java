@@ -35,7 +35,7 @@ ActionListener
 	MenuItem mn23 = new MenuItem("Contar Letras");
 	MenuItem mn24 = new MenuItem("Contar Vocales");
 	TextArea TA = new TextArea("");
-	Dialog dlg = new Dialog(this, "Di·logo con mensaje", true);
+	Dialog dlg = new Dialog(this, "Di√°logo con mensaje", true);
 	
 	public BlocDeNotas()
 	{
@@ -129,7 +129,7 @@ ActionListener
 		}
 		if(a.equals(mn13))
 		{
-			FileDialog fd = new FileDialog(this, "Indicar nombre y ubicaciÛn del archivo", FileDialog.SAVE);
+			FileDialog fd = new FileDialog(this, "Indicar nombre y ubicaci√≥n del archivo", FileDialog.SAVE);
 					fd.setVisible(true); 
 		}
 	}
@@ -145,3 +145,4 @@ ActionListener
 	public void windowOpened(WindowEvent we) {}
 }
 //local a server
+//server a local
